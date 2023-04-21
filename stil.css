@@ -1,0 +1,84 @@
+
+body{
+
+    background-color:#221f33;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+#my-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #list-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #my-list li {
+   /* max-width: 600px;  sau orice altă valoare dorești */
+
+
+   display: grid;
+   grid-template-columns: 3fr 1fr 1fr 50px;
+   grid-gap: 5px;
+
+   text-align: center;
+   font-size: 25px;
+  
+    margin: 8px 0;
+   padding: 8px;
+    background-color: #4443a1;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    transition: background-color 0.5s ease, color 0.5s ease;
+       
+  }
+
+
+  #my-list li .done-notdone {
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  #my-list li .delete-button {
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: #311349;
+   border-radius: 6px;
+    padding-top: 3px;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+   
+  }
+  
+
+  h1{
+text-align: center;
+  }
+
+  #my-form
+  {
+   text-align: center;
+  }
+
+  #add-button{
+    height: 30px;
+    width: 50px;
+   border-radius: 5px;
+    color:white;
+    background-color:#464591;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+  }
+
+  #new-item-input{
+    height: 30px;
+    color:white;
+    background-color: #353535;
+  }
+ 
